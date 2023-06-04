@@ -1,0 +1,85 @@
+ 
+<html>
+    <head>
+      <title>Gesture web app App</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+    <div class="container">
+    
+      <center>
+   <h3 class=" heading"> Gesture web app App
+    <br>
+
+    <span>&#9995</span>
+  <span>&#9757</span>
+  <span>&#9996</span>
+  <span>&#128077</span>
+  <span>&#128074</span>
+  <span>&#128406</span>
+
+ </h3>
+      <br><br>
+
+      
+      
+      <p style="font-size: 20px;">Take your selfie of a gesture to know it's meaning 
+      	<br>
+        
+     
+        <br>
+        <b style="font-size: 17px; color: black;"">On the following gestures the model is being trained</b>
+
+        <br>
+        <span>&#128077</span>
+  <span>&#128074</span>
+  <span>&#9996</span>
+
+      </p>
+
+      <br><br>
+
+      <div class="col-md-4 col-sm-12 col-xs-12 div">
+        <label style="background-color: #569DAA; border-radius: 5px;" >Webcam View</label>
+        <div id="camera"></div>
+        <br>
+        <button onclick="capture()" class="form-control class">Capture Image</button>
+      </div>
+                                  
+
+      <div class="col-md-4 col-sm-12 col-xs-12 ">
+        <label  style="background-color: #569DAA; border-radius: 5px;" >Prediction-</label>
+        <p id="result_emotion_name" class="emotion_name"></p>
+        <p class="emoji" id="update_emoji"></p>
+      </div>
+
+
+      <div class="col-md-4 col-sm-12 col-xs-12 div">
+	      <label  style="background-color: #569DAA; border-radius: 5px;" >Snapshot - </label>
+        <div id="result"></div>   <br>
+        <button class="form-control class" onclick="result()">Predict emotion</button>
+       </div>
+       
+       <br><br><br><br><br>
+    
+    
+      </center>
+   
+    
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

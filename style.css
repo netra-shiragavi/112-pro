@@ -1,0 +1,57 @@
+body
+{
+  color: white;
+  background: #8EC3B0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+.heading{
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  background: #9ED5C5;
+}
+
+label{
+  color: black;
+  font-size: 15px;
+}
+
+.div{
+  background-color: #BCEAD5;
+ color: black;
+ border-radius: 5px;
+ padding-bottom: 10px;
+ margin-bottom: 20px;
+ 
+}
+
+.class{
+  background-color: #DEF5E5;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
